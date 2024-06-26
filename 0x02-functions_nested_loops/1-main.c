@@ -1,12 +1,12 @@
 #include "main.h"
 
-void print_alphabet(void)
+/**
+ * main - check the code
+ *
+ * Return: Always 0.
+ */
+int main(void)
 {
-	char *str = "abcdefghijklmnopqrstuvwxyz";
-	while (*str)
-	{
-		_putchar(*str);
-		str++;
-	}
-	_putchar('\n');
+    print_alphabet();
+    return (0);
 }
