@@ -5,6 +5,7 @@
  *
  * @dest: buffer point
  * @src: where the strings are copied
+ * Return: dest_start
  */
 
 char *_strcpy(char *dest, char *src)
