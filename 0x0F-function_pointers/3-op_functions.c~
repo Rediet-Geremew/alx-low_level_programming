@@ -1,0 +1,18 @@
+#include <stdio.h>
+#include "3-calc.h"
+
+/**
+ * op_add - addition operator
+ * @a: first integer
+ * @b: second integer
+ *
+ * Return: the sum of a and b
+ */
+int op_add(int a, int b)
+{
+	return (a + b);
+}
+
+/**
+ * op_sub - subtraction operator
+ * @a: first integer
